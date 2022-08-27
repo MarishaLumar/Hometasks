@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Цей опис Україською мовою">
+    <title>Avto Search</title>
+</head>
+
+<body>
+    <h1>Поиск Автомобиля</h1>
+    <form action="https://fom.in.ua/echo" method="post">
+        <label for="auto_type">Тип транспорта:</label>
+        <select name="auto_type" id="auto_type">
+            <option value="cars">Легковые</option>
+            <option value="moto">Мото</option>
+            <option value="trucks">Грузовики </option>
+            <option value="trailers">Прицепы </option>
+            <option value="special_equipment">Спецтехника</option>
+            <option value="agricultural_machinery">Сельхозтехника</option>
+            <option value="buses">Автобусы</option>
+            <option value="water_transport">Водный транспорт</option>
+            <option value="air_yransport">Воздушный транспорт </option>
+            <option value="auto_at_home">Авто дома</option>
+        </select>
+        <p>Тип кузова:</p>
+        <span>
+            <input type="checkbox" name="station_wagon" id="station_wagon" value="station_wagon">
+            <label for="station_wagon">Универсал:</label>
+
+            <input type="checkbox" name="sedan" id="sedan" value="sedan">
+            <label for="sedan">Судан:</label>
+
+            <input type="checkbox" name="hatchback" id="hatchback" value="hatchback">
+            <label for="hatchback">Хэтчбек</label>
+            <br>
+            <input type="checkbox" name="crossover" id="crossover" value="crossover">
+            <label for="crossover">Кроссовер:</label>
+
+            <input type="checkbox" name="coupe" id="coupe" value="coupe">
+            <label for="coupe">Купе:</label>
+
+            <input type="checkbox" name="cabriolet" id="cabriolet" value="cabriolet">
+            <label for="cabriolet">Кабриолет</label>
+        </span>
+        <br>
+        <br>
+        <label for="country_manufacturer">Страна производитель:</label>
+        <select name="country_manufacturer" id="country_manufacturer">
+            <option value="aus">Австралия</option>
+            <option value="bel">Бельгия</option>
+            <option value="bgr">Болгария</option>
+            <option value="deu">Германия </option>
+            <option value="grc">Греция</option>
+            <option value="geo">Грузия</option>
+            <option value="dnk">Дания</option>
+            <option value="isr">Израиль</option>
+            <option value="esp">Испания</option>
+            <option value="chn">Китай</option>
+            <option value="jpn">Япония</option>
+        </select>
+        <br>
+        <br>
+        <label for="number">Цена:</label>
+        <input type="number" id="number" step="1" min="0" placeholder="10000"> $
+        <br>
+        <br>
+        <label for="production_year">Год выпуска :</label>
+        <input type="date" id="production_year">
+        <p>Состояние автомобиля:</p>
+        <span>
+            <input type="checkbox" name="broken" id="broken" value="broken">
+            <label for="broken">Битая:</label>
+
+            <input type="checkbox" name="on_credit" id="on_credit" value="on_credit">
+            <label for="on_credit">В кредите:</label>
+
+            <input type="checkbox" name="uncleared" id="uncleared" value="uncleared">
+            <label for="uncleared">Нерастаможенная</label>
+            <br>
+            <input type="checkbox" name="auto_from_usa" id="auto_from_usa" value="auto_from_usa">
+            <label for="auto_from_usa">Авто из США:</label>
+
+            <input type="checkbox" name="garage_storage" id="garage_storage" value="garage_storage">
+            <label for="garage_storage">Гаражное хранение:</label>
+
+            <input type="checkbox" name="first_owner" id="first_owner" value="first_owner">
+            <label for="first_owner">Первый владелец</label>
+        </span>
+        <br>
+        <br>
+        <label for="auto_mark">Марка машины:</label>
+        <select name="auto_mark" id="auto_mark">
+            <option value="Auid">Auid</option>
+            <option value="cura">Acura</option>
+            <option value="Alfa Romeo ">Alfa Romeo </option>
+            <option value="Bentley">Bentley </option>
+            <option value="Byd">Byd</option>
+            <option value="BMW">BMW</option>
+            <option value="Brilliance">Brilliance</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Hyundai">Hyundai </option>
+            <option value="Chevrolet">Chevrolet</option>
+        </select>
+        <br>
+        <br>
+        <p>Тип коробки передач:</p>
+        <span>
+            <input type="radio" name="automaton" id="automaton" value="automaton">
+            <label for="automaton">Автомат:</label>
+
+            <input type="radio" name="mechanics" id="mechanics" value="mechanics">
+            <label for="mechanics">Механика:</label>
+
+            <input type="radio" name="tiptronic" id="tiptronic" value="tiptronic">
+            <label for="tiptronic">Типтроник</label>
+        </span>
+        <br>
+        <label for="color">Цвет:</label>
+        <input type="color" id="color" />
+        <br>
+        <br>
+        <p>Тип топлива:</p>
+        <span>
+            <input type="radio" name="petrol" id="petrol" value="petrol">
+            <label for="petrol">Бензин:</label>
+
+            <input type="radio" name="gas" id="gas" value="gas">
+            <label for="gas">Газ:</label>
+
+            <input type="radio" name="hybrid" id="hybrid" value="hybrid">
+            <label for="hybrid">Гибрид</label>
+
+            <input type="radio" name="electro" id="electro" value="electro">
+            <label for="electro">электро</label>
+
+            <input type="radio" name="diesel" id="diesel" value="diesel">
+            <label for="diesel">Дизель</label>
+        </span>
+        <br>
+        <br>
+        <label for="comfort">Комфорт:</label>
+        <select name="comfort" id="comfort">
+            <option value="cars">Легковые</option>
+            <option value="central_locking">Центральный замок</option>
+            <option value="anti_theft_systems">Противоугонные системы </option>
+            <option value="parking_system">Парковочная система </option>
+            <option value="heating_elements">Нагревательные элементы </option>
+            <option value="engine_control">Управления двигателем</option>
+            <option value="autostart">Автозапуск</option>
+            <option value="laser_headlights">Лазерные фары</option>
+            <option value="climate_control_system">Система климат-контроля </option>
+            <option value="windshield_washer">Стеклоомыватель</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Поиск">
+    </form>
+
+
+</body>
+
+
+</html>
