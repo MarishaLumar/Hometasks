@@ -1,0 +1,18 @@
+td {
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0, 0);
+}
+.myclass {
+    visibility: hidden;  
+}
+.class_yellow{
+    background-color: yellow;
+}
+.class_blue{
+    background-color: blue;
+}
+.class_red{
+    background-color: red;
+}
