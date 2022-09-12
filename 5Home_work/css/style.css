@@ -1,15 +1,17 @@
-*h1{
+h1{
     font-size: 22px;
 }
+
 #text {
-background: rgb(255, 148, 251);;
-color: #350af5be;
+    background: #ff94fb;;
+    color: #350af5be;
 }
+
 .class_h2 {
-    background: rgb(255, 253, 118);
+    background: #fffd76;
     color: #e04111a1;
-    
 }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -19,19 +21,24 @@ a {
     color: #fb0e16;
     background: #b7fb9575;
 }
+
 span {
-    color: rgb(0, 30, 255);
+    color: #001eff;
 }
+
 main .holder > div{
     color:  #f50aca;
     font-size: 18px;
 }
+
  .holder div + div { 
     background: #0af541;
 }
+
 .holder2 > div{
     background: #69bbffbe;
 }
+
 h3.class3 {
     background:#4fffff ;
     color: #fb0e16;
@@ -41,8 +48,6 @@ h3.class3 {
     color: #fb0e16;
 }
  
-
-
 #myh3{
     background-color: #fb0e16;
     color: #fef0fa;
@@ -50,6 +55,7 @@ h3.class3 {
 h4, ul {
     color: #053310;
 }
+
 .myh4 {
     background-color: #3811e8;
     color: #fef0fa;
@@ -58,4 +64,8 @@ h4, ul {
 b, i{
 color: #fb0e16;
 }
+
+li:first-of-type + li {
+    color: #1dff61;
+  }
 
