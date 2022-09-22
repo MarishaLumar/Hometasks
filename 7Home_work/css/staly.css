@@ -93,22 +93,13 @@ body {
         font-size: 0;
     }
 
-    .flex-center {
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-    }
-
+    
     .icon-holder {
         display: inline-block;
         width: 150px;
         font-size: 16px;
         padding: 10px;
-    }
-
-    .icon-text,
-    .icon-img {
-        display: inline-block;
+        margin: 0 15px;
     }
 
     .icon-text { 
