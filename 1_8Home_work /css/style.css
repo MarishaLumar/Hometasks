@@ -20,7 +20,7 @@ body {
      border-bottom: 5px solid #30acff;
  }
  
- .menu > ul li a {
+ .menu a {
      display: block;
      padding: 20px 35px 20px 45px;
      color: #dcd2d2;
@@ -60,13 +60,19 @@ body {
      padding-left: 80px;
  }
  
- .menu li > ul li a {
+
+ .menu a.sub {
      padding: 20px;
      text-transform: none;
      border-bottom: none;
  }
+
+.second_level li:hover > .sub {
+    background-color:  #393838;;
+ }
  
- .menu li > ul li ul {
+
+ .menu ul.third_level {
      position: absolute;
      right: -200px;
      top: 67px;
